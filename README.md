@@ -7,6 +7,9 @@
   --
   -使用环境中正常构建libevent<br>
   -修改makefile中的头文件和动态库路径<br>
+  ```shell
+  make
+  ```
 
 ## 🌟.线程池<br>
     每个线程对应一个eventloop，采用管道事件激活线程提取任务
